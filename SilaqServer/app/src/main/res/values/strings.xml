@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SilaqServer</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Urutkan</string>
+
+    <string name="action_search">Cari</string>
+
+    <string name="menu_category">Toko</string>
+    <string name="menu_food_list">Menu</string>
+    <string name="menu_best_deal">Best Deal</string>
+    <string name="menu_populer">Populer</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="popular_categories">Toko Populer</string>
+    <string name="best_deal">Diskon</string>
+    <string name="size">Ukuran</string>
+
+
+    <string name="add_on">Tambahkan</string>
+    <string name="clear_cart">Hapus semua</string>
+    <string name="cart">Keranjang</string>
+    <string name="sign_out">Keluar</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

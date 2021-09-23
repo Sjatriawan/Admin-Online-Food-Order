@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "123743402050",
+    "firebase_url": "https://silaq-v2.firebaseio.com",
+    "project_id": "silaq-v2",
+    "storage_bucket": "silaq-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123743402050:android:3eba9ff88ea7db44b515db",
+        "android_client_info": {
+          "package_name": "com.lentera.silaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123743402050-ve9lgorjef3qgrcuuqt4ant08j9a3tib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lentera.silaq",
+            "certificate_hash": "c0c222e6b82ce6f93c513490e990defdf11da05c"
+          }
+        },
+        {
+          "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP89JHbvaubXUg6x43k8zfDv1sUeg_qDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123743402050:android:d038a1c13ef4c9e0b515db",
+        "android_client_info": {
+          "package_name": "com.lentera.silaqserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP89JHbvaubXUg6x43k8zfDv1sUeg_qDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123743402050-lb39tohcdgiv8g2hfos677fp6kr6a3ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

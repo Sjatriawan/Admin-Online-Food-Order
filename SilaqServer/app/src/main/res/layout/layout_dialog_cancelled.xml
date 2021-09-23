@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_title"
+        android:textSize="32sp"
+        android:text="Update pesanan"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_below="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_title_small"
+        android:textSize="22sp"
+        android:text="Update stataus pesanan"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_below="@+id/txt_title_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_status"
+        android:textSize="22sp"
+        android:text="Status: dikirim"
+        android:textColor="@android:color/black"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdi_group"
+        android:layout_below="@+id/txt_status"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rdi_restore_placed"
+            android:text="Restore Placed"
+            android:checked="true"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rdi_delete"
+            android:text="Delete"
+            android:textSize="22sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdi_group"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Cancel"
+            android:id="@+id/btn_cancel"
+            android:textColor="@android:color/darker_gray"
+            android:background="@android:color/transparent">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="OK"
+            android:id="@+id/btn_ok"
+            android:textColor="@android:color/darker_gray"
+            android:background="@android:color/transparent">
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

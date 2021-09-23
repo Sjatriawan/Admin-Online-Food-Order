@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_store_black_24dp"
+            android:title="@string/menu_category" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="Pesanan" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_best_deal"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="Best Deal" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_most_popular"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="Popular" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="@drawable/ic_local_shipping_black_24dp"
+            android:title="Driver" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_keyboard_tab_black_24dp"
+            android:title="Keluar" />
+    </group>
+
+
+</menu>
